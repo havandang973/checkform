@@ -68,7 +68,7 @@ function checkCfPassword (elementPassword, elementPasswordCf) {
     }
 }
 
-//thực hiện click button  (Mỗi lần click thực hiện check 1 lần nên làm đc như này # php)
+//thực hiện click button  (điều kiện những hàm sau ko thỏa mãn nên sẽ ko thực hiện cùng ok)
 function clickShow (btnSubmit) {
     btnSubmit.addEventListener("click", function() {
             checkEmpty(getInput, getSpan)
